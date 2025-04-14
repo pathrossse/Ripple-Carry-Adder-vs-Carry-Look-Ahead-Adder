@@ -1,26 +1,8 @@
 # Ripple-Carry-Adder-vs-Carry-Look-Ahead-Adder
-Certainly! Based on the contents of your repository, here's a comprehensive `README.md` file tailored for your project:
-
----
-
 ```markdown
 # Ripple-Carry Adder vs Carry Look-Ahead Adder
 
 This repository presents a comparative study between two fundamental digital adder architectures: the **Ripple-Carry Adder (RCA)** and the **Carry Look-Ahead Adder (CLA)**. Implemented in Verilog HDL, the project includes simulation testbenches and visual outputs to illustrate the performance differences between these adders.
-
-## 📁 Repository Structure
-
-```
-.
-├── cla_adder.v             # Verilog code for the 4-bit Carry Look-Ahead Adder
-├── rca_adder.v             # Verilog code for the 4-bit Ripple-Carry Adder
-├── testbench.v             # Testbench for simulating both adders
-├── 4 bit carry look ahead adder.pdf  # Documentation detailing CLA design
-├── rca.png                 # Image illustrating the RCA structure
-├── fpga 2.png              # FPGA implementation image
-├── fpga board.png          # Image of the FPGA board used
-└── README.md               # Project documentation
-```
 
 ## 🧠 Project Overview
 
@@ -83,8 +65,6 @@ The CLA offers faster computation by reducing the carry propagation delay, makin
 ## 📷 Visual Aids
 
 - **RCA Structure:** ![RCA Structure](rca.png)
-- **FPGA Implementation:** ![FPGA Implementation](fpga 2.png)
-- **FPGA Board Used:** ![FPGA Board](fpga board.png)
 
 ## 📄 Documentation
 
@@ -93,8 +73,6 @@ For an in-depth understanding of the Carry Look-Ahead Adder design, refer to the
 - [4 bit carry look ahead adder.pdf](4%20bit%20carry%20look%20ahead%20adder.pdf)
 
 ## 🧑‍💻 Author
-
-**Pathrose Sebastian**
 
 - GitHub: [pathrossse](https://github.com/pathrossse)
 
